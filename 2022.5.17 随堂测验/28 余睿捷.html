@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>商品单价</th>
+                <th>商品数量</th>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </div>
+    <button onclick="show()">显示</button>  
+    <script>
+        let arr=[[10,3],[20,5],[30,7],[40,5]];
+        let mul=0;
+        function show(){
+            for(let i=0;i<arr.length;i++){
+                mul=arr[i][0]*arr[i][1];
+                console.log( mul );
+             }
+        }
+        
+    </script>
+</body>
+</html>

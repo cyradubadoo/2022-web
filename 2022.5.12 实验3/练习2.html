@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数组去重</title>
+</head>
+<body>
+    <script>
+       //结果如何输出可以自己决定
+		var oldarr = [1, 1, 2, 2, 2, 3, 5, 7, 9];
+        var newarr = [];
+        console.log(oldarr);
+        newarr = f(oldarr);
+        console.log(newarr);
+		//最终使得数组newarr结果为[1, 2, 3, 5, 7, 9];
+		function f(xarr) {
+            var yarr = [];
+            //添加去重代码
+            for (var i = 0; i < xarr.length; i++) {
+                if (yarr.indexOf(xarr[i]) === -1) {
+                     yarr.push(xarr[i]);
+                 }
+             }
+            return yarr;
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+
+*{
+	margin: 0;
+	padding: 0;    
+}
+a:hover {color:#c08ec0;}
+a:active{color: #a454a4;}
+
+.nav{
+	align-items: center;
+}
+
+.li1{
+    display: inline;
+    list-style-type: none;
+	float: left;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.a1{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(219, 227, 234);
+}
+
+article{
+    background: rgb(202, 234, 220);
+    padding: 10px;
+    margin: 10px;
+	border-top-left-radius: 10px 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 10px 5px;
+	border-bottom-left-radius: 5px;
+}
+
+body { 
+	font-family:"微软雅黑"; 
+	font-size:14px; 
+}
+
+#container {
+	margin:0 auto; 
+	width:900px; 
+}
+
+#header { 
+	height:100px;
+	background:rgb(110, 176, 208); 
+	margin-bottom:5px;
+    line-height: 100px;
+    text-align: center;
+	background-image: url(img/2.png);
+}
+
+#nav{ 
+	height:30px;
+	background:rgb(63, 173, 209); 
+	margin-bottom:5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#main{ 
+	height:500px;
+	margin-bottom:5px;
+}
+
+#aside{
+    float: left;
+    width: 395px;
+    height: 500px;
+    background-color:rgb(202, 252, 252);
+	border-top-left-radius: 40px 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 40px 20px;
+	border-bottom-left-radius: 20px;
+}
+#tianzi{
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 30px;
+	padding-top: 90px;
+
+}
+
+#content{ 
+	float: right; 
+	margin-left:5px;
+	width: 500px;
+	height:500px; 
+	background:rgb(195, 247, 247);
+	border-top-left-radius: 40px 20px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 40px 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#footer { 
+	height:60px; 
+	background:rgb(128, 200, 236);
+}
+
+.li2{
+    list-style-type: none;
+}
+
+.a2{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+	color: rgb(0, 0, 0);
+}
+
+#i3{
+	float: left;
+	width: 90%;
+    padding: 2px;
+    margin: 0px;
+}
+#i8{
+	float: left;
+	width: 90%;
+    padding: 1px;
+    margin: 0px;	
+}
+
